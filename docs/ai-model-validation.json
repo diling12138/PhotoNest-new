@@ -1,0 +1,18 @@
+{
+  "text_min_cosine": 0.9630329012870789,
+  "text_storage_min_cosine": 0.9999998807907104,
+  "image_min_cosine": 0.9160455465316772,
+  "image_mean_cosine": 0.9514850676059723,
+  "calibration_images": 32,
+  "image_mean_seconds": 0.022967283333249117,
+  "image_storage_min_cosine": 0.9999922513961792,
+  "selected_models": {
+    "ocr_detector": "ocr/det.onnx",
+    "ocr_recognizer": "ocr/rec.onnx",
+    "ocr_characters": "ocr/characters.json",
+    "clip_image": "chinese_clip/image.fp16-storage.onnx",
+    "clip_text": "chinese_clip/text.fp16-storage.onnx",
+    "clip_vocab": "chinese_clip/vocab.txt"
+  },
+  "total_model_bytes": 175641577
+}
